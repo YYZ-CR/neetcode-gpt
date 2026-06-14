@@ -16,5 +16,5 @@ class Solution:
         # z is a 1D NumPy array
         # Formula: max(0, z) element-wise
 
-        return [max(0.0, val) for val in z]
+        return np.maximum(0,z)
         
